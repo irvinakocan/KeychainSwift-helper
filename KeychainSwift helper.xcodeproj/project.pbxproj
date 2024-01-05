@@ -14,6 +14,7 @@
 		24A0E12D2B48A8C4007FBB83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A0E12C2B48A8C4007FBB83 /* Assets.xcassets */; };
 		24A0E1302B48A8C4007FBB83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A0E12E2B48A8C4007FBB83 /* LaunchScreen.storyboard */; };
 		24A0E1382B48AAF2007FBB83 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A0E1372B48AAF2007FBB83 /* Keychain.swift */; };
+		24A0E13A2B48AEFD007FBB83 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A0E1392B48AEFD007FBB83 /* Models.swift */; };
 		6EA0F88330AA3648E53D724A /* Pods_KeychainSwift_helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2973D140F545B29A1DFBCFC1 /* Pods_KeychainSwift_helper.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		24A0E12F2B48A8C4007FBB83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24A0E1312B48A8C4007FBB83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24A0E1372B48AAF2007FBB83 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		24A0E1392B48AEFD007FBB83 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		2973D140F545B29A1DFBCFC1 /* Pods_KeychainSwift_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainSwift_helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36ED95084FD7270C5E9EF174 /* Pods-KeychainSwift helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainSwift helper.release.xcconfig"; path = "Target Support Files/Pods-KeychainSwift helper/Pods-KeychainSwift helper.release.xcconfig"; sourceTree = "<group>"; };
 		910E44BD4878AAD91945CAEF /* Pods-KeychainSwift helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainSwift helper.debug.xcconfig"; path = "Target Support Files/Pods-KeychainSwift helper/Pods-KeychainSwift helper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				24A0E1232B48A8B9007FBB83 /* AppDelegate.swift */,
 				24A0E1252B48A8B9007FBB83 /* SceneDelegate.swift */,
+				24A0E1392B48AEFD007FBB83 /* Models.swift */,
 				24A0E1372B48AAF2007FBB83 /* Keychain.swift */,
 				24A0E1272B48A8B9007FBB83 /* ViewController.swift */,
 				24A0E1292B48A8B9007FBB83 /* Main.storyboard */,
@@ -213,6 +216,7 @@
 				24A0E1382B48AAF2007FBB83 /* Keychain.swift in Sources */,
 				24A0E1242B48A8B9007FBB83 /* AppDelegate.swift in Sources */,
 				24A0E1262B48A8B9007FBB83 /* SceneDelegate.swift in Sources */,
+				24A0E13A2B48AEFD007FBB83 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
