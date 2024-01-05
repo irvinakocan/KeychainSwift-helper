@@ -13,6 +13,7 @@
 		24A0E12B2B48A8B9007FBB83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A0E1292B48A8B9007FBB83 /* Main.storyboard */; };
 		24A0E12D2B48A8C4007FBB83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A0E12C2B48A8C4007FBB83 /* Assets.xcassets */; };
 		24A0E1302B48A8C4007FBB83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A0E12E2B48A8C4007FBB83 /* LaunchScreen.storyboard */; };
+		6EA0F88330AA3648E53D724A /* Pods_KeychainSwift_helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2973D140F545B29A1DFBCFC1 /* Pods_KeychainSwift_helper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		24A0E12C2B48A8C4007FBB83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A0E12F2B48A8C4007FBB83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24A0E1312B48A8C4007FBB83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2973D140F545B29A1DFBCFC1 /* Pods_KeychainSwift_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainSwift_helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ED95084FD7270C5E9EF174 /* Pods-KeychainSwift helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainSwift helper.release.xcconfig"; path = "Target Support Files/Pods-KeychainSwift helper/Pods-KeychainSwift helper.release.xcconfig"; sourceTree = "<group>"; };
+		910E44BD4878AAD91945CAEF /* Pods-KeychainSwift helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainSwift helper.debug.xcconfig"; path = "Target Support Files/Pods-KeychainSwift helper/Pods-KeychainSwift helper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA0F88330AA3648E53D724A /* Pods_KeychainSwift_helper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				24A0E1222B48A8B9007FBB83 /* KeychainSwift helper */,
 				24A0E1212B48A8B9007FBB83 /* Products */,
+				EFBB0B4AE80E0632700F4CAC /* Pods */,
+				A89B232D77765CEDFF3C44D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = "KeychainSwift helper";
 			sourceTree = "<group>";
 		};
+		A89B232D77765CEDFF3C44D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2973D140F545B29A1DFBCFC1 /* Pods_KeychainSwift_helper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFBB0B4AE80E0632700F4CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				910E44BD4878AAD91945CAEF /* Pods-KeychainSwift helper.debug.xcconfig */,
+				36ED95084FD7270C5E9EF174 /* Pods-KeychainSwift helper.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24A0E1342B48A8C4007FBB83 /* Build configuration list for PBXNativeTarget "KeychainSwift helper" */;
 			buildPhases = (
+				3766F161DF330B99DFADB4D8 /* [CP] Check Pods Manifest.lock */,
 				24A0E11C2B48A8B9007FBB83 /* Sources */,
 				24A0E11D2B48A8B9007FBB83 /* Frameworks */,
 				24A0E11E2B48A8B9007FBB83 /* Resources */,
+				96A3D6590407B5327D0AF093 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3766F161DF330B99DFADB4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeychainSwift helper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A3D6590407B5327D0AF093 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeychainSwift helper/Pods-KeychainSwift helper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeychainSwift helper/Pods-KeychainSwift helper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeychainSwift helper/Pods-KeychainSwift helper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24A0E11C2B48A8B9007FBB83 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		24A0E1352B48A8C4007FBB83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 910E44BD4878AAD91945CAEF /* Pods-KeychainSwift helper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +379,7 @@
 		};
 		24A0E1362B48A8C4007FBB83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36ED95084FD7270C5E9EF174 /* Pods-KeychainSwift helper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
