@@ -13,3 +13,9 @@ struct User: Codable {
     let id: String
     let age: Int
 }
+
+extension User: CustomStringConvertible {
+    var description: String {
+        "User: \(name) \(surname) \nId: \(id) \nAge: \(age)"
+    }
+}
